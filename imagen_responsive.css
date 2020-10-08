@@ -1,0 +1,16 @@
+.img_responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen_mod{
+    height: 1303px;
+    width: 843px;
+    align-items: center;
+}
+
+.divisor{
+    height: 49%;
+    background-color: white;
+    margin: 1% 1%;
+  }

@@ -1,0 +1,61 @@
+.mayusculaverdana{
+    font-family: 'Verdana'; 
+    font-size: 28px;
+}
+.minusculaverdana{
+    font-family: 'Verdana'; 
+    font-size: 17px;
+}
+
+.derecha{
+    float: right;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.izquierda{
+    float: left;
+}
+.centro{
+    text-align: center;
+}
+
+.img_centro
+{
+    align-items: center;
+}
+
+.bebas{
+    font-family: 'Bebas';
+}
+/*PC*/
+@media screen and (min-width: 960px) {
+    #contenedor {
+     width: 100%;
+     margin: auto;
+    }
+   }
+   
+   /*Tablet*/
+   @media screen and (min-width: 480px) and (max-width: 960px) {
+    #contenedor {
+     width: 100%;
+     margin: auto;
+    }
+    .item {
+     width: 25%;
+    }
+   }
+   
+   /*móviles*/
+   @media screen and (min-width: 200px) and (max-width: 480px) {
+    #contenedor {
+     width: 90%;
+     margin: auto;
+    }
+    .item {
+     width: 90%;
+    }
+    }

@@ -1,0 +1,14 @@
+.header {
+    background: url(img/Labranza\ conservacion\ 1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+
+.header .navbar {
+    background-color: transparent !important;
+}

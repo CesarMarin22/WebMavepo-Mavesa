@@ -1,0 +1,14 @@
+.breadcrumb>li+li::before {
+
+    padding: 0 5px;
+    color: #b80a25;
+    content: ">\00a0";
+}
+
+li.active{
+    color: #cccccc;
+}
+
+ol.breadcrumb{
+    background-color: rgba(249, 249, 255, 0);
+}

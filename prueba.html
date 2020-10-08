@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Galeria</title>
+ <link href="galeriafiltro.css" rel="stylesheet" type="text/css">
+ <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+ <script type="text/javascript" src="js/jquery-mixitup.min.js"></script>
+ <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
+ 
+ <script>
+  $(function(){ $("#portafolio").mixitup({
+   targetSelector: ".item",
+   transitionSpeed: 450 
+  });
+});
+ </script>
+
+</head>
+<body>
+
+<section id="contenedor">
+ <ul id="listado">
+  <li class="filtro" data-filter="all">Todas</li>
+  <li class="filtro" data-filter="autos">Autos</li>
+  <li class="filtro" data-filter="motos">Motos</li>
+ </ul>
+ <ul id="portafolio">
+  <li class="item_autos">
+   <a href="tractores/MF 1500.png" class="html5lightbox" data-group="galeria" title="Lykan">
+   <img src="tractores/MF 1500.png"  alt=""/></a></li>
+  <li class="item_motos">
+   <a href="images/moto3-big.jpg" class="html5lightbox" data-group="galeria" title="Harley Davidson"></a>
+    <img src="images/moto3.jpg"  alt=""/></a></li>
+  <li class="item_autos">
+   <a href="images/auto3-big.jpg" class="html5lightbox" data-group="galeria" title="Shelby"></a>
+    <img src="images/auto3.jpg"  alt=""/></a></li>
+  <li class="item_autos">
+   <a href="images/auto2-big.jpg" class="html5lightbox" data-group="galeria" title="Mustang"></a>
+    <img src="images/auto2.jpg"  alt=""/></a></li>
+  <li class="item_motos">
+   <a href="images/moto1-big.jpg" class="html5lightbox" data-group="galeria" title="Chopper"></a>
+    <img src="images/moto1.jpg"  alt=""/></a></li>
+  <li class="item_motos">
+   <a href="images/moto2-big.jpg" class="html5lightbox" data-group="galeria" title="Ducati"></a>
+    <img src="images/moto2.jpg"  alt=""/></a></li>
+ </ul>
+</section>
+</body>
+</html>

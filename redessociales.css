@@ -1,0 +1,96 @@
+ /*Tablet*/
+ @media screen and (min-width: 480px) and (max-width: 960px) {
+  .contenedorredes {
+    height: 70px;
+    width: 1px;
+    border: 2px solid #fff;
+    margin: 80px 50px;
+  }
+  .item {
+   width: 25%;
+  }
+ }
+ 
+ /*móviles*/
+ @media screen and (min-width: 200px) and (max-width: 480px) {
+  .contenedorredes {
+    height: 70px;
+    width: 1px;
+    border: 2px solid #fff;
+    margin: 8px 3px;
+  }
+  .item {
+   width: 90%;
+  }
+  }
+ .contenedorredes{
+   height: 70px;
+   width: 1px;
+   border: 2px solid #fff;
+   margin: 80px 10px;
+
+ }
+
+ .contenedorredes:hover .email{
+  transform: translateX(330px);
+}
+
+ .contenedorredes:hover .facebook{
+   transform: translateX(260px);
+ }
+
+ .contenedorredes:hover .instagram{
+  transform: translateX(180px);
+}
+
+.contenedorredes:hover .whatsapp{
+  transform: translateX(100px);
+}
+
+ .redes{
+   border: 4px solid #fff;
+   font-size: 27px;
+   padding: 10px;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   text-decoration: none;
+   position: absolute;
+   transition: 2s;
+ }
+
+ .facebook{
+   background:#1976d2;
+ }
+
+ .instagram{
+   background: #d35400;
+ }
+
+ .whatsapp{
+   background: #00cc33;
+ }
+
+ .email{
+  background:#212f3d;
+}
+ 
+ .boton{
+   background: #cc0033;
+   height: 60px;
+   width: 60px;
+   margin: -10px;
+ }
+
+
+
+
+
+
+
+
+
